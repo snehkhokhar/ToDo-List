@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #292929;
+    overflow-x: hidden;
+}
+.nav{
+    background-color: #1b1b1b;
+    width: 100vw;
+    height: 80px;
+    box-shadow: 0px 4px #ea51ff;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.nav_data ul li{
+    color: white;
+    font-family: Verdana;
+    cursor: pointer;
+}
+.nav_data ul li:last-child{
+    position: absolute;
+    right: 50px;
+}
+.nav_data ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+h1{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 20px;
+    font-family: Style Script;
+}
+.text{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+button{
+    height: 60px;
+    width: 70px;
+    text-align: left;
+    padding-left: 14px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #2f80ed;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    border: 2px solid white;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+input[type="text"]{
+    width: 800px;
+    height: 60px;
+    background-color: #1a1a1a;
+    color: white;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding: 0px 40px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    font-size: larger;
+    border: 2px solid white;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+.container{
+    width: 100vw;
+    padding: 0px 100px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 20px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+.container ul{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    padding: 20px 50px;
+    position: relative;
+    transition: all 0.2s linear;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.container ul img{
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.container ul:hover{
+    transform: scale(1.03);
+}
